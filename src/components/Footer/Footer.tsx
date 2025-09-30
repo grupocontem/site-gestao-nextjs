@@ -67,10 +67,9 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Copyright */}
       <div className={`row ${styles.copyright}`}>
         <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-          <p>© Copyright 2025 - Grupo Contém - Todos os direitos reservados.</p>
+          <p>© Copyright 2025 - Gestão Plano de Saúde - Todos os direitos reservados.</p>
         </div>
       </div>
 

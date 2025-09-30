@@ -1,18 +1,14 @@
-/* Descrição Grupo */
-
 .descricao-grupo{
     padding-top: 70px;
     padding-bottom: 70px;
-    background-image: url("/img/fundo.jpg");
 }
 
 .descricao-grupo h2{
     text-transform: uppercase;
-    color: #f2552e;
+    color: red;
     font-size: 28px;
     font-weight: 700;
-    margin: 0px;
-    margin-bottom: 20px;
+    margin: 0 0 20px;
 }
 
 .bloco-conteudo:before,

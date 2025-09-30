@@ -2,7 +2,7 @@ import './../css/home.css'
 import type {Metadata} from "next";
 
 export const metadata: Metadata = {
-    title: "Página Inicial | Grupo Contém",
+    title: "Página Inicial | Gestão Plano de Saúde",
     description: "Bem-vindo ao Grupo Contém, onde você encontra os melhores planos de saúde e serviços para sua empresa.",
 };
 
@@ -23,7 +23,7 @@ export default function Home() {
                                   <br />
                                   <img src={'/img/logos-banner2.png'} alt="logos" className="ans" height="50" />
                                   <br />
-                                  <img src={'/img/ans-banner2.png'} alt="ANS" height="18" className="ans" />
+                                  <img src={'/img/ans.jpg'} alt="ANS" height="18" className="ans" />
                               </div>
                           </div>
                       </div>
@@ -39,36 +39,28 @@ export default function Home() {
                   </div>
               </section>
 
-            <section className="operadoras py-5">
+            <section className="descricao-section">
+                <div className="conteudo-descricao text-center">
+                    <h1>É TUDO MUITO FÁCIL</h1>
+                    <p>O Grupo Contém oferece os melhores planos e preços acessíveis para<br />você ter mais tranquilidade, e serviços online pra facilitar sua vida.</p>
+                </div>
+
                 <div className="container">
-                    <div className="text-center mb-4">
-                        <h1 className="section-heading m-0">Nossas Operadoras</h1>
-                        <div className="heartbeat mx-auto my-2" aria-hidden="true" />
-                        <br/>
-                    </div>
-
-                    <div className="row justify-content-center">
-                        <div className="col-6 col-sm-6 col-md-4 col-lg-3 d-flex">
-                            <div className="card logo-card w-100">
-                                <img src="/img/operadoras/oplan.png" alt="Oplan" className="card-img-top p-3" />
-                            </div>
-                        </div>
-
-                        <div className="col-6 col-sm-6 col-md-4 col-lg-3 d-flex">
-                            <div className="card logo-card w-100">
-                                <img src="/img/operadoras/sulmed.jpg" alt="Sulmed" className="card-img-top p-3" />
-                            </div>
-                        </div>
-
-                        <div className="col-6 col-sm-6 col-md-4 col-lg-3 d-flex">
-                            <div className="card logo-card w-100">
-                                <img src="/img/operadoras/odontoempresas.jpg" alt="Odonto Empresas" className="card-img-top p-3" />
-                            </div>
-                        </div>
-
-                        <div className="col-6 col-sm-6 col-md-4 col-lg-3 d-flex">
-                            <div className="card logo-card w-100">
-                                <img src="/img/operadoras/norte-fluminense.png" alt="Unimed Norte Fluminense" className="card-img-top p-3" />
+                    <div className="row descricao-item">
+                        <div className="col-12 col-md-12">
+                            <div className="row align-items-center">
+                                <div className="col-lg-3" id="icone-descricao">
+                                    <img src={'/img/icone-barras.png'} alt="Ícone barras" />
+                                </div>
+                                <div className="col-lg-6" id="descricao-texto">
+                                    <p><strong>2º VIA DO BOLETO</strong></p>
+                                    <p>Seu boleto não chegou? Ou será que você perdeu? Não tem problema, em poucos cliques você imprime um novo.</p>
+                                </div>
+                                <div className="col-lg-3" id="button-descricao">
+                                    <a href="/boleto">
+                                        <button type="button" className="btn btn-primary">Clique Aqui</button>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>

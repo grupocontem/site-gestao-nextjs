@@ -1,0 +1,35 @@
+.header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+}
+
+.header :global(.border-bottom) {
+    border-bottom: 1px solid white !important;
+}
+
+.navLink {
+    border-right: 1px solid #ea0000;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.navLinkActive {
+    color: #ff0800 !important;
+}
+
+.iconWrap img {
+    width: 32px;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 992px) {
+    .navLink {
+        border-right: none;
+    }
+}

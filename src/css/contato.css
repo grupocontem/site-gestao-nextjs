@@ -6,11 +6,10 @@
 
 .contato h3{
     text-transform: uppercase;
-    color: #f2552e;
+    color: #ff0000;
     font-size: 28px;
     font-weight: 700;
-    margin: 0px;
-    margin-bottom: 20px;
+    margin: 0 0 20px;
 }
 
 .nav-pills{
@@ -24,7 +23,7 @@
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
-    background-color: #f0ad4e;
+    background-color: #ff0000;
 }
 
 .enviar-contato{

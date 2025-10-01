@@ -33,3 +33,150 @@
         border-right: none;
     }
 }
+
+.header .navbar {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.header .navbar .container {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.hoverDropdown {
+    position: static;
+}
+
+.dropdownMenu {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: calc(100% - 1px);
+    background: #fff;
+    border-top: 1px solid #eee;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .08);
+    z-index: 1050;
+    padding-top: 6px;
+}
+
+@media (min-width: 992px) {
+    .hoverDropdown:hover .dropdownMenu {
+        display: block;
+    }
+}
+
+.dropdownMenu.open {
+    display: block;
+}
+
+.dropdownLink {
+    display: block;
+    padding: 10px 8px;
+    color: #333;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.dropdownLink:hover {
+    background: #f8f9fa;
+    color: #000;
+}
+
+.mobileToggle {
+    padding: .25rem 0;
+    text-decoration: none;
+}
+
+.mobileSubmenu {
+    display: none;
+    padding: 6px 0 12px;
+}
+
+.mobileSubmenu.open {
+    display: block;
+}
+
+.navLinkActive {
+    font-weight: 600;
+    color: #ff0000 !important;
+}
+
+.iconWrap img {
+    height: 20px;
+    width: 20px;
+    object-fit: contain;
+}
+
+.header .navbar {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.header .navbar .container {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.hoverDropdown {
+    position: static;
+}
+
+.dropdownMenu {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: calc(100% - 1px);
+    background: #fff;
+    border-top: 1px solid #eee;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    z-index: 1050;
+    padding-top: 6px;
+}
+
+@media (hover: hover) and (min-width: 992px) {
+    .hoverDropdown:hover .dropdownMenu {
+        display: block;
+    }
+}
+
+.dropdownMenu.open {
+    display: block;
+}
+
+.dropdownLink {
+    display: block;
+    padding: 12px 10px;
+    color: #333;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.dropdownLink:hover {
+    background: #f8f9fa;
+    color: #000;
+}
+
+.mobileSubmenu {
+    display: none;
+    padding: 6px 0 12px;
+    border-top: 1px solid #eee;
+    margin-top: 6px;
+}
+
+.mobileSubmenu.open {
+    display: block;
+}
+
+.navLinkActive {
+    font-weight: 600;
+    color: #ff0000 !important;
+}
+
+.iconWrap img {
+    height: 20px;
+    width: 20px;
+    object-fit: contain;
+}

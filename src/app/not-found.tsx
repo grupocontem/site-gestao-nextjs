@@ -20,7 +20,7 @@ export default function NotFoundPage() {
             <div className="container py-5" style={{ fontFamily: "gotham, sans-serif" }}>
                 <div className="row justify-content-center text-center">
                     <div className="col-lg-8">
-                        <h1 className="display-4 fw-bold mb-3" style={{ color: "#f2552e" }}>
+                        <h1 className="display-4 fw-bold mb-3" style={{ color: "#ff0000" }}>
                             404
                         </h1>
                         <h2 className="h3 mb-4">Página não encontrada</h2>

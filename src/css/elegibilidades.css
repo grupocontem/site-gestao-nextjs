@@ -1,26 +1,21 @@
-
-.elegibilidades{
-    background-image: url("/img/fundo.jpg");
-    padding: 70px;
-    text-align: center;
+.breadcrumbs-custom {
+    position: relative;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
 }
 
-.elegibilidades h2{
-    text-transform: uppercase;
-    color: #f2552e;
-    font-size: 28px;
-    font-weight: 700;
-    margin: 0px;
-    margin-bottom: 20px;
+.breadcrumbs-custom .breadcrumbs-custom-inner {
+    position: relative;
+    z-index: 1;
+    width: 100%;
 }
 
-.card{
-    margin: 15px 15px;
-    padding: 25px;
-    border: 1px solid #ebebeb;
-    background-color: #fff;
-    text-align: center;
-    -moz-box-shadow: rgba(255,138,0,0.3) 0px 0px 40px;
-    -webkit-box-shadow: rgb(255 138 0 / 30%) 0px 0px 40px;
-    box-shadow: rgb(255 138 0 / 30%) 0px 0px 40px;
+.breadcrumbs-custom::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 0;
 }

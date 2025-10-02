@@ -3,7 +3,7 @@ import '../../css/boleto.css'
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Contato | Grupo Contém",
+    title: "Contato | Gestão Plano de Saúde",
     description: "Busque a segunda via do seu boleto de forma rápida e fácil. Fale conosco pelo WhatsApp ou acesse o Portal do Cliente.",
 };
 
@@ -59,7 +59,7 @@ export default function Elegibilidades() {
                                 </a>
 
                                 <a
-                                    href="https://digitalsaude.com.br/portal/contem"
+                                    href="https://digitalsaude.com.br/portal/gestaosaude"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="btn btn-laranja btn-sm"

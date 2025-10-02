@@ -3,7 +3,7 @@ import type {Metadata} from "next";
 
 export const metadata: Metadata = {
     title: "Sobre Nós | Gestão Plano de Saúde",
-    description: "Conheça o Grupo Contém, sua missão, visão e valores",
+    description: "Conheça o Gestão Plano de Saúde, sua missão, visão e valores",
 };
 
 export default function Sobrenos(){

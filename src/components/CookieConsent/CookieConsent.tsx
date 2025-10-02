@@ -116,8 +116,8 @@ export default function CookieConsentModal() {
                                         <section className="mb-4"><p> Trata-se de Termos e Condições de Uso do site.
                                             Este documento reúne as regras, condições e informações que devem ser
                                             observadas por todos que acessam ou utilizam o site{" "} <a
-                                                href="https://www.grupocontem.com.br" target="_blank"
-                                                rel="noopener noreferrer"> https://www.grupocontem.com.br </a>,
+                                                href="https://https://gestaoplanodesaude.com.br/" target="_blank"
+                                                rel="noopener noreferrer"> https://gestaoplanodesaude.com.br </a>,
                                             disponibilizado pela ADMINISTRADORA. Ao utilizar o site, o usuário declara
                                             que leu e concorda integralmente com estas condições. Usuários menores de
                                             idade ou incapazes precisam da permissão de seus responsáveis, que também

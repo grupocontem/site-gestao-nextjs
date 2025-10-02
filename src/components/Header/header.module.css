@@ -176,7 +176,13 @@
 }
 
 .iconWrap img {
-    height: 20px;
-    width: 20px;
+    height: 40px;
+    width: 40px;
     object-fit: contain;
+    transition: transform 0.2s ease;
 }
+
+.iconWrap img:hover {
+    transform: scale(1.1);
+}
+

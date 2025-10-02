@@ -3,7 +3,7 @@ import type {Metadata} from "next";
 
 export const metadata: Metadata = {
     title: "Página Inicial | Gestão Plano de Saúde",
-    description: "Bem-vindo ao Grupo Contém, onde você encontra os melhores planos de saúde e serviços para sua empresa.",
+    description: "Bem-vindo ao Gestão Plano de Saúde",
 };
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
                   >
                       <div className="carousel-inner">
                           <div className="carousel-item active" id="carousel-container" data-bs-interval="5000">
-                              <img src={'/img/banner.jpg'} className="d-block w-100" id="img-carousel" alt="Banner 02" />
+                              <img src={'/img/banner-site.jpg'} className="d-block w-100" id="img-carousel" alt="Banner 02" />
                               <div className="carousel-caption d-md-block">
                                   <h5>GESTÃO PLANO DE SAÚDE <br />Administrando qualidade de vida!</h5>
                                   <br />
@@ -42,7 +42,7 @@ export default function Home() {
             <section className="descricao-section">
                 <div className="conteudo-descricao text-center">
                     <h1>É TUDO MUITO FÁCIL</h1>
-                    <p>O Grupo Contém oferece os melhores planos e preços acessíveis para<br />você ter mais tranquilidade, e serviços online pra facilitar sua vida.</p>
+                    <p>O Gestão Plano de Saúde oferece os melhores planos e preços acessíveis para<br />você ter mais tranquilidade, e serviços online pra facilitar sua vida.</p>
                 </div>
 
                 <div className="container">

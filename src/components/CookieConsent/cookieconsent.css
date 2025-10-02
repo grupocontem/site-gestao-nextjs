@@ -21,8 +21,8 @@
 
 /* Cores da marca */
 :root {
-    --gc-orange: #f2552e;
-    --gc-orange-hover: #d94b26;
+    --gc-orange: #ff0000;
+    --gc-orange-hover: #d92626;
     --gc-text: #333333;
     --gc-ghost-border: #dcdcdc;
     --gc-ghost-bg-hover: #f6f6f6;

@@ -2,22 +2,21 @@ import '../../css/operadoras.css'
 import type {Metadata} from "next";
 
 export const metadata: Metadata = {
-    title: "Operadoras | Grupo Contém",
-    description: "Conheça as operadoras de saúde parceiras do Grupo Contém",
+    title: "Operadoras | Gestão Plano de Saúde",
+    description: "Conheça as operadoras de saúde parceiras do Gestão Plano de Saúde",
 };
 
 export default function Page() {
     const imagens = [
         "amacor.jpg",
         "sulmed.jpg",
-        "verte.png",
-        "onix.png",
-        "odonto.png",
-        "vale-do-aco.png",
-        "norte-fluminense.png",
-        "oplan.png",
-        "unity-saude.png",
-        "seguros-unimed.png"
+        "verte.jpg",
+        "oplan.jpg",
+        "sulmed.jpg",
+        "unimed-cv.jpg",
+        "unimed-nf.jpg",
+        "unimed-odonto.jpg",
+        "verte.jpg",
     ];
 
     return (

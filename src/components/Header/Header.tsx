@@ -8,8 +8,9 @@ import styles from "./header.module.css";
 const navItems = [
     { href: "/", label: "HOME" },
     { href: "/institucional", label: "INSTITUCIONAL" },
-    { href: "/entidades", label: "ENTIDADES" }, // dropdown especial
-    { href: "/outros-produtos", label: "OUTROS PRODUTOS" },
+    { href: "/entidades", label: "ENTIDADES" },
+    { href: "/operadoras", label: "OPERADORAS" },
+    { href: "/contrate", label: "CONTRATE" },
     { href: "/contato", label: "CONTATO" },
     { href: "/faq", label: "FAQ" },
 ];
@@ -114,7 +115,7 @@ export default function Header() {
             <nav className="navbar navbar-expand-lg bg-white navbar-light" data-bs-theme="light">
                 <div className="container">
                     <a className="navbar-brand" href="/">
-                        <img src="/img/logo.png" alt="Grupo Contem" height={48} />
+                        <img src="/img/gestao-logo-ans.png" alt="Gestão Plano de Saúde" height={48} />
                     </a>
 
                     <button
@@ -237,6 +238,32 @@ export default function Header() {
                                 rel="noreferrer"
                             >
                                 2ª via de boleto
+                            </a>
+                        </div>
+
+                        <div className="d-none d-lg-flex align-items-center gap-2 ms-4">
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <span className={styles.iconWrap}>
+                                  <img src="/img/icon-facebook.png" alt="Facebook" />
+                                </span>
+                            </a>
+
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <span className={styles.iconWrap}>
+                                  <img src="/img/icon-insta.png" alt="Instagram" />
+                                </span>
+                            </a>
+
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <span className={styles.iconWrap}>
+                                  <img src="/img/icon-likedin.png" alt="LinkedIn" />
+                                </span>
+                            </a>
+
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <span className={styles.iconWrap}>
+                                  <img src="/img/icon-tiktok.png" alt="TikTok" />
+                                </span>
                             </a>
                         </div>
                     </div>

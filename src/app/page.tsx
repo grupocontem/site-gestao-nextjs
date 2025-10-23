@@ -19,10 +19,10 @@ export default function Home() {
                           <div className="carousel-item active" id="carousel-container" data-bs-interval="5000">
                               <img src={'/img/banner-site.jpg'} className="d-block w-100" id="img-carousel" alt="Banner 02" />
                               <div className="carousel-caption d-md-block">
-                                  <h5>GESTÃO PLANO DE SAÚDE <br />Administrando qualidade de vida!</h5>
+                                  { /* <h5>GESTÃO PLANO DE SAÚDE <br />Administrando qualidade de vida!</h5>
                                   <br />
                                   <img src={'/img/logos-banner2.png'} alt="logos" className="ans" height="50" />
-                                  <br />
+                                  <br />*/ }
                                   <img src={'/img/ans.jpg'} alt="ANS" height="18" className="ans" />
                               </div>
                           </div>

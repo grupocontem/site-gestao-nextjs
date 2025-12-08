@@ -22,8 +22,8 @@ export default function Home() {
                                   { /* <h5>GESTÃO PLANO DE SAÚDE <br />Administrando qualidade de vida!</h5>
                                   <br />
                                   <img src={'/img/logos-banner2.png'} alt="logos" className="ans" height="50" />
-                                  <br />*/ }
-                                  <img src={'/img/ans.jpg'} alt="ANS" height="18" className="ans" />
+                                  <br />
+                                  <img src={'/img/ans.jpg'} alt="ANS" height="18" className="ans" />*/ }
                               </div>
                           </div>
                       </div>

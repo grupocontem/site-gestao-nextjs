@@ -12,11 +12,9 @@ export default function Page() {
         "sulmed.jpg",
         "verte.jpg",
         "oplan.jpg",
-        "sulmed.jpg",
         "unimed-cv.jpg",
         "unimed-nf.jpg",
         "unimed-odonto.jpg",
-        "verte.jpg",
     ];
 
     return (

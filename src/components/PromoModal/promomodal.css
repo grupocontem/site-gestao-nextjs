@@ -1,0 +1,39 @@
+.gc-promo-content {
+    position: relative;
+    background: transparent;
+    box-shadow: none;
+}
+
+.gc-promo-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.35);
+}
+
+.gc-promo-close {
+    position: absolute;
+    top: -14px;
+    right: -14px;
+    z-index: 2;
+    width: 20px;
+    height: 20px;
+    padding: 0.5rem;
+    background-color: #fff;
+    border-radius: 50%;
+    opacity: 1;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+.gc-promo-close:hover,
+.gc-promo-close:focus {
+    background-color: #f0f0f0;
+    opacity: 1;
+}
+
+@media (max-width: 576px) {
+    .gc-promo-close {
+        top: -12px;
+        right: 4px;
+    }
+}

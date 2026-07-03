@@ -1,5 +1,6 @@
 import './../css/home.css'
 import type {Metadata} from "next";
+import PromoModal from "@/components/PromoModal/PromoModal";
 
 export const metadata: Metadata = {
     title: "Página Inicial | Gestão Plano de Saúde",
@@ -9,6 +10,8 @@ export const metadata: Metadata = {
 export default function Home() {
     return (
         <>
+              <PromoModal />
+
               <section>
                   <div
                       id="carouselExampleSlidesOnly"

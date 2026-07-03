@@ -38,12 +38,20 @@ export default function CookieConsentModal() {
         setOpen(false);
         try { localStorage.setItem(STORAGE_KEY, "accepted"); } catch {}
         enablePostConsentScripts();
+        notifyConsentResolved();
     }
 
     function reject() {
         setConsent("rejected");
         setOpen(false);
         try { localStorage.setItem(STORAGE_KEY, "rejected"); } catch {}
+        notifyConsentResolved();
+    }
+
+    // Avisa outros modais (ex.: anúncio da home) que o consentimento foi resolvido,
+    // para que só apareçam depois e não se sobreponham a este modal.
+    function notifyConsentResolved() {
+        try { window.dispatchEvent(new CustomEvent("gc:cookie-consent-resolved")); } catch {}
     }
 
     function enablePostConsentScripts() {

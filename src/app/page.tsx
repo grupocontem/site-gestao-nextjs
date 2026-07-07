@@ -1,6 +1,6 @@
 import './../css/home.css'
 import type {Metadata} from "next";
-import PromoModal from "@/components/PromoModal/PromoModal";
+// import PromoModal from "@/components/PromoModal/PromoModal";
 
 export const metadata: Metadata = {
     title: "Página Inicial | Gestão Plano de Saúde",
@@ -10,7 +10,8 @@ export const metadata: Metadata = {
 export default function Home() {
     return (
         <>
-              <PromoModal />
+              {/* Pop-up promocional desativado. Para reativar, descomente o import acima e a linha abaixo. */}
+              {/* <PromoModal /> */}
 
               <section>
                   <div

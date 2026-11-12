@@ -202,7 +202,7 @@ export default function ContatoClient({
                                                         <div className="cell-xl-5 height-fill" style={{ paddingTop: 30 }}>
                                                             <iframe
                                                                 title="Endereço Gestão Plano de Saúde"
-                                                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.2355039548174!2d-43.17736818503445!3d-22.904682885012896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f5f788b0ef3%3A0x1d11e8cbac2836e4!2sR.%20do%20Carmo%2C%208%20-%20Centro%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2020011-020!5e0!3m2!1spt-BR!2sbr!4v1638361705218!5m2!1spt-BR!2sbr"
+                                                                src="https://maps.google.com/maps?q=Rua%20Senador%20Dantas%20117%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2020031-911&hl=pt-BR&z=16&output=embed"
                                                                 width="450"
                                                                 height="250"
                                                                 style={{ border: 0 }}
@@ -464,7 +464,7 @@ export default function ContatoClient({
                                 <div className="col-md-4 p-4">
                                     <h6>Rio de Janeiro (RJ)</h6>
                                     <p className="bi bi-geo-alt-fill">
-                                        Rua do carmo 8, 6º andar <br /> Rio de Janeiro, RJ 20011-020
+                                        Rua Senador Dantas 117, apto 1219 <br /> Rio de Janeiro, RJ 20031-911
                                     </p>
                                     <p className="bi bi-envelope-fill">relacionamentocomocliente@gestaoplanodesaude.com.br</p>
                                 </div>
